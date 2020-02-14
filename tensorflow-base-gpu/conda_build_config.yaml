@@ -11,9 +11,9 @@ c_compiler_version:    # [linux]
 cxx_compiler_version:  # [linux]
   - 5.4                # [linux]
 cudatoolkit:
-  - 10.0
+  - 10.2
 cudnn:
-  - 7.6
+  - 7.6.5
 # conda-build has an issue right now where looping over things doesn't work the way it should
 # python:
 #   - 2.7  # [not win]
